@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Guess The Word</h1>
+    </div>
+
+    <div class="main">
+        <div class="gamebox">
+            <!-- Row 1 -->
+            <div class="row" id="currentRow">
+                <div class="box" id="currentBox"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <!-- Row 3 -->
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <!-- Row 4 -->
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <!-- Row 5 -->
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="rules">
+        <p>You have 5 chance.</p>
+        <p>GREEN</p>
+        <p>You guessed the letter in correct postion.</p>
+        <p>YELLOW</p>
+        <p>The letter you entered is in the target word but you enterd in wrong position</p>
+        <p>GRAY</p>
+        <p>The letter you entered is not in the target word.</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
